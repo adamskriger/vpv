@@ -1,3 +1,12 @@
+* {
+
+  font-family: 'Karla', sans-serif;
+
+}
+
+.headline {
+  font-size: 4rem;
+}
 
 .main-image-container.col-xs-12 {
   background-image:
