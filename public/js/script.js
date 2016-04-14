@@ -28,4 +28,9 @@ $(document).ready(function(){
 	}
 }
 
+
+$('.scroll-link').mouseenter(function() {
+    $(this).effect('bounce',500);
+});
+
  });

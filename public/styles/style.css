@@ -4,6 +4,11 @@
 
 }
 
+a.navbar-brand {
+  color: blue;
+
+}
+
 @media only screen
   and (min-device-width: 768px)
   and (max-device-width: 1024px)
@@ -28,6 +33,7 @@ visible: hidden;
 
 
 }
+
 
 
 div.footer.col-xs-12.col-md-12 {
@@ -97,13 +103,14 @@ div.footer.col-xs-12.col-md-12 {
   height: 51px;
 }
 
+
 .arrow {
-  z-index: 1;
-  top: 49rem;
- position: relative;
- text-align: center;
- margin-left: 50%;
- margin-right: 50%;
+   z-index: 1;
+   top: 49rem;
+   position: relative;
+   text-align: center;
+   margin-left: 50%;
+   margin-right: 50%;
 }
 
 
