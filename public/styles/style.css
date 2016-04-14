@@ -12,6 +12,7 @@
 
 }
 
+
 .parallelogram {
 
 	-webkit-transform: skew(25deg);
@@ -28,6 +29,9 @@
   margin-left: 5rem;
 }
 
+.second-section {
+  margin-bottom: 40rem;
+}
 
 
 
@@ -70,6 +74,7 @@
 
 
 .second-section-header {
+  margin-top: 5rem;
   margin-bottom: 4rem;
   text-align: center;
 
@@ -148,3 +153,9 @@
     width: 100%;
     height: 100%;
   }
+
+
+/*.page-stretch {
+  height: 100px;
+  background-color: white;
+}*/
