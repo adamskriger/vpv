@@ -15,6 +15,15 @@
   height: 51px;
 }
 
+.arrow {
+  z-index: 1;
+  top: 49rem;
+ position: relative;
+ text-align: center;
+ margin-left: 50%;
+ margin-right: 50%;
+}
+
 @media screen and (max-width: 5000px){
     .navbar-default{
         background: white;
