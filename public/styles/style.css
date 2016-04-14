@@ -7,13 +7,13 @@
 .fixed {
 	position: fixed;
 	top: 0;
-	height: 50px;
+	height: 40px;
 	z-index: 1;
 }
 
 @media screen and (max-width: 5000px){
     .navbar-default{
-        background: black;
+        background: white;
         border: 1px;
         right:15px;
         width: 100%;
@@ -49,6 +49,7 @@
 
 .headline {
   font-size: 4rem;
+  margin-top: -1rem;
 }
 
 .main-image-container.col-xs-12 {
@@ -61,9 +62,9 @@
   -webkit-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding-bottom: 10rem;
-  padding-top: 12rem;
-
+  padding-bottom: 28rem;
+  padding-top: 14rem;
+  height: 100%;
 
 }
 
