@@ -4,6 +4,33 @@
 
 }
 
+.second-image-container {
+  background-image: url('https://s3.amazonaws.com/verbalvisual/image2.jpg');
+  background-size: cover;
+  background-repeat: none;
+  height: 50rem;
+
+}
+
+.parallelogram {
+
+	-webkit-transform: skew(25deg);
+	   -moz-transform: skew(25deg);
+	     -o-transform: skew(25deg);
+	background: none;
+  border: 1px solid black;
+  border-top: none;
+  border-bottom: none;
+  width: 86rem;
+  height:60rem;
+  margin-top: -5rem;
+  margin-bottom: -5rem;
+  margin-left: 5rem;
+}
+
+
+
+
 .btn-button-name, .btn-button-name:link, .btn-button-name:visited {
       background-color: transparent;
       border-radius: 0;
