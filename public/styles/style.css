@@ -4,6 +4,42 @@
 
 }
 
+@media screen and (max-width: 5000px){
+    .navbar-default{
+        background:none;
+        border:0;
+        position:absolute;
+        top:15px;
+        right:15px;
+    }
+    .navbar-collapse{
+        background:#f5f5f5;
+    }
+    .navbar-collapse.collapse{
+        display: none!important;
+        height: 0!important;
+        padding-bottom: 0;
+        overflow: hidden!important;
+    }
+    .navbar-toggle.collapsed{
+        display:block!important;
+    }
+    .navbar-toggle{
+        display:block!important;
+    }
+    .navbar-collapse.collapse.in{
+        display:block!important;
+        height:auto!important;
+        overflow:visible!important;
+    }
+    .navbar-nav>li,.navbar-header{
+        float:none;
+    }
+    .navbar-default .navbar-toggle.collapsed{
+        background:#fff;
+    }
+}
+
 .headline {
   font-size: 4rem;
 }
