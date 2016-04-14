@@ -7,17 +7,21 @@
 .fixed {
 	position: fixed;
 	top: 0;
-	height: 40px;
+	height: 50.1563px;
 	z-index: 1;
+}
+
+.nav-wrapper {
+  height: 50.1563px;
 }
 
 @media screen and (max-width: 5000px){
     .navbar-default{
         background: white;
         border: 1px;
-        right:15px;
         width: 100%;
         padding-left: 20px;
+        height: 51px;
     }
     .navbar-collapse{
         background:#f5f5f5;
