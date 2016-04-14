@@ -4,12 +4,17 @@
 
 }
 
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 50px;
+	z-index: 1;
+}
+
 @media screen and (max-width: 5000px){
     .navbar-default{
         background: black;
         border: 1px;
-        position:absolute;
-        top:15px;
         right:15px;
         width: 100%;
         padding-left: 20px;
