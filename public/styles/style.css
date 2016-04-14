@@ -12,7 +12,7 @@
 }
 
 .nav-wrapper {
-  height: 50.1563px;
+  height: 51px;
 }
 
 @media screen and (max-width: 5000px){
@@ -58,7 +58,7 @@
 
 .main-image-container.col-xs-12 {
   background-image:
-          linear-gradient( to top left, rgba(0, 0, 0, 1), rgba(0, 33, 33, 0.5),  rgba(0, 33, 88, 0.5), rgba(0, 33, 99, 0.5)),
+          linear-gradient( to top left, rgba(0, 0, 0, 1),rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8), rgba(0, 15, 25, 0.5), rgba(0, 55, 155, 0.7), rgba(3, 81, 117, .7),rgba(3, 81, 117, 0.6), rgba(3, 81, 117, 0.5)),
           url('https://s3.amazonaws.com/verbalvisual/image1.jpg');
           min-height: 100%;
   background-repeat: no-repeat;
