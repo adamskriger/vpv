@@ -4,6 +4,23 @@
 
 }
 
+.btn-button-name, .btn-button-name:link, .btn-button-name:visited {
+      background-color: transparent;
+      border-radius: 0;
+      color: white;
+      border: 2px solid white;
+      width: 16rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      margin-right: 1rem;
+
+  }
+
+.btn-button-name:active, .btn-button-name:hover {
+      background-color: #3f6fa0;
+      color: white;
+  }
+
 .fixed {
 	position: fixed;
 	top: 0;
